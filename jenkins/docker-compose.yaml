@@ -7,7 +7,7 @@ services:
       - '8080:8080'
     volumes:
     #  - /var/run/docker.sock:/var/run/docker.sock
-      - /home/jenkins/jenkins-data:/var/jenkins_home
+      - /home/jenkins/udemy-project/jenkins-data:/var/jenkins_home
     networks:
       - net
 networks:
